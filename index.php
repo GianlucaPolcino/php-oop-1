@@ -20,7 +20,7 @@
       <h2>Durata: <?php echo $new_film->duration ?></h2>
       <h3>Sala: <?php echo $new_film->lobby ?></h3>
       <h3>Trama:</h3>
-      <p><?php echo $new_film->getTrimDescription(60) ?></p>
+      <p><?php echo $new_film->getTrimDescription(100) ?></p>
     <?php endforeach ?>
   </body>
 </html>
